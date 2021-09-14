@@ -1,0 +1,179 @@
+.container {
+    display: flex;
+    background-image: linear-gradient(90deg, #2c3e50, #70818b, #70818b, #90A9B7, #bdc3d7);
+    
+}
+.colorit{
+    background-image: linear-gradient(180deg, #2c3e50, #70818b, #70818b, #90A9B7, #2c3e50);
+    background-repeat: no-repeat;
+    border: 1px solid #2c3e50;
+}
+
+#body{
+    flex-direction: column;
+}
+
+.logo{
+    color: white;
+}
+
+* {
+    font-size: 18px;
+}
+
+
+/* Navigation */
+
+nav ul li a{
+    font-weight: bold;
+    color: white;
+    
+}
+.current a{
+    color: #F78154;
+    font-size: 25px;
+}
+
+nav ul li:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+/* main */
+
+#main{
+    flex-direction: row;
+    flex: auto;
+}
+
+/* article */
+
+.content{
+    flex: 2;
+    overflow-y: auto;
+}
+
+.all-content{
+    border-radius: 8px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.intro{
+    background-color: white;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.intro h2{
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.intro h3{
+    text-transform: uppercase;
+}
+
+.author{
+    float: right;
+}
+
+.quotes{
+    background-color: #90A9B7;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 8px;
+}
+
+.stats{
+    font-size: 24px;
+
+}
+.motiv{
+    background-color: #90A9B7;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 50%;
+    float: right;
+}
+
+.goals{
+    clear: both;
+    float:left;
+    background-color: #90A9B7;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.img-resize{
+    display: flex;
+    justify-content: center;
+}
+.join{
+    display: flex;
+    flex: auto;
+    background-color: #F78154;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.join img{
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+
+.img{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* aside */
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+aside{
+    border-left: 2px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.placeholder{
+    background-color:#90A9B7;
+}
+
+/* footer */
+footer{
+    background: linear-gradient(90deg, #90A9B7, #2c3e50);
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+footer p a{
+    color: whitesmoke;
+}
+
+
+.quote img{
+    height: 300px;
+    width: 700px;
+}
+
+.quote{
+    font-size: 30px;
+}
